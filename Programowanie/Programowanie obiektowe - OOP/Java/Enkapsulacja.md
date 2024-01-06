@@ -1,0 +1,3 @@
+# Enkapsulacja
+## Wstęp
+Enkapsulacja, inaczej zwana hermetyzacją to sposób na ukrycie szczegółów implementacji [[Klasy|klasy]]. Enkapsulacja jest bardzo ważnym elemenetem programowania obiektowego. Pozwala na pełną kontrolę nad zachowaniem i stanem danego [[Obiekty|obiektu]]. Dobrą praktyką jest stosowanie najbardziej restrykcyjnych [[Modyfikatory dostępu|modyfikatorów dostepu]]. Sprowadza się to do użycia private dla wszystkich pól i metod, które powinny być używane wewnątrz. Pozostałe elementy które stanoowią interfejs komunikacji oznaczamy słowem kluczowym public. Default lub protected mają znaczenie w przypadku bardziej złożonych relacji między obiektami. 

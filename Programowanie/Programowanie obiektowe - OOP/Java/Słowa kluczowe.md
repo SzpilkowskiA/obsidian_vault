@@ -1,0 +1,58 @@
+# Słowa kluczowe w Javie
+## Literały
+Specjalną grupę stanowią literały, które nie sa słowami kluczowymi, natomiast nie można ich używać do innych zastosowań ponieważ mają z góry ustaloną wartość.
+- `null` - wartość nieokreślona np. brak referencji. W matematyce przypomina wartość zbioru pustego.
+- `true` - wartość logiczna oznaczająca prawdę
+- `false` - wartośc logina oznaczająca fałsz
+## Nieużywane ale zastrzeżone słowa kluczowe
+- `const` - w niektórych językach deklaruje się tym stałe, w [[Java|Javie]] używa się [[Słowa kluczowe#^030b8e|final]].
+- `goto` - instrukcja służąca do przeskakiwania w kodzie do innego określonego miejsca. W Javie nie ma zastosowań.
+## Słowa kluczowe Javy
+-   `abstract` – służy do implementowania metod lub [[Klasy abstrakcyjne|klas abstrakcyjnych]]. Klasy abstrakcyjne nie mogą posiadać swojej instancji w postaci obiektu, natomiast metody abstrakcyjne nie posiadają swojej definicji. Metody abstrakcyjne można implementować w zwykłej klasie. Słowo abstract nie ma zastosowania przed nazwą zmiennych!
+-   `assert` – pozwala użyć asercji, aby móc skontrolować działanie programu. Jeśli warunek asercji nie zostanie spełniony kompilator zgłosi błąd **AssertionError**. Asercję w porównaniu do innych sposobów testowania można usunąć je przed publikacją aplikacji po zakończeniu testów.
+-   `boolean` – logiczny typ zmiennych. Przyjmuje wartość **true** albo **false**.
+-   `break` – użycie tego słowa kluczowego umożliwi wcześniejsze wyjście z pętli (**for**, **while** lub **do** **while**) lub powoduje koniec wykonywania [instrukcji warunkowej **switch**](https://programistajava.pl/java-petle-i-przeplyw-sterowania/) (w której jest ono konieczne, aby wykonać tylko jedną instrukcję, a nie szeregu). Jego użycie może korzystnie wpłynąć  na wydajność programu jednak ze względu na czytelność kodu należy starać się jej unikać i tak tworzyć warunki pętli, aby użycie break nie było konieczne.
+-   `byte` – słowo kluczowe, które deklaruje zmienną typu byte. Jej rozmiar to 1 B czyli 8 bitów.
+-   `case` – używane przy instrukcji **switch.** służy do wymienienia kolejnych przypadków w porównaniach.
+-   `catch` – blok, który służy do [obsługi wyjątków](https://programistajava.pl/wyjatki-rzucanie-i-przechwytywanie/) w przypadku operacji obarczonych ryzykiem niepowodzenia np. połączenia z bazą danych, odczyt i zapis plików.
+-   `char` – deklaruje zmienne znakowe. Znaki w Javie przechowywane są w pamięci w standardzie Unicode na 2 Bajtach.
+-   `class` – słowo kluczowe służące do deklaracji klas.
+-   `continue` – słowo kluczowe służące do optymalizacji kodu – gdy po sprawdzeniu warunku w [pętli](https://programistajava.pl/java-petle-i-przeplyw-sterowania/) wykryjemy, że nie ma potrzeby wykonania konkretnej iteracji pętli do końca, to możemy użyć **continue** w celu zakończenia bieżącej iteracji i przejściu od razu do następnej.
+-   `default` – słowo kluczowe używane w [instrukcji **switch**](https://programistajava.pl/java-petle-i-przeplyw-sterowania/). Gdy wszystkie warunki po słowie **case** zostaną odrzucone, to instrukcja po słowie kluczowym default zostanie wykonana. Od **Javy 8** posiada dodatkowe znaczenie – pozwala deklarować metody nieabstrakcyjne wewnątrz interfejsu.
+-   `do` – słowo wykorzystywane przy [pętli **do while**](https://programistajava.pl/java-petle-i-przeplyw-sterowania/).
+-   `double` – słowo deklaruje zmienne zmiennoprzecinkowe podwójnej precyzji. Typ prosty **double** potrzebuje 8 B pamięci.
+-   `else` – słowo kluczowe wykorzystywane w [instrukcji warunkowej **if**](https://programistajava.pl/java-petle-i-przeplyw-sterowania/). Jeśli warunek nie został spełniony, to możemy nim obsłużyć kolejny pisząc else if (warunek) lub pisząc else – wtedy rozumiemy go jako ” w każdym innym przypadku”.
+-   `enum` – słowo deklaruje zmienne wyliczeniowe.
+-   `extends` – słowo kluczowe służące do [dziedziczenia](https://programistajava.pl/programowanie-obiektowe-dziedziczenie/) z innej klasy.
+-   `final` – w Javie słowo kluczowe, którym definiuje się stałe. ^030b8e
+-   `finally` – słowo kluczowe wykorzystywane w blokach [instrukcji obsługujących wyjątki](https://programistajava.pl/wyjatki-rzucanie-i-przechwytywanie/) **try-catch-finally**. Kod zawarty w bloku **finally** wykonywany jest zawsze bez względu na to czy został wygenerowany wyjątek. Przykładowym zastosowaniem może być zamknięcie połączenia z bazą danych lub zamknięcie strumienia.
+-   `float` – słowo deklaruje zmienne zmiennoprzecinkowe pojedynczej precyzji. Typ prosty **float** potrzebuje 4 B pamięci.
+-   `for` – słowo kluczowe służące do pisania pętli – tradycyjnej lub typu „for each” – do obsługi kolekcji.
+-   `if` – podstawowa [[instrukcja warunkowa]]. Wykonywana jedynie, kiedy wyrażenie zawarte w nawiasie zwraca wartość **true**. Może być połączony z instrukcją **else**.
+-   `implements` – słowo kluczowe, które zaznacza, że klasa implementuje dany [[Interfejs|interfejs]]. W Javie można implementować wiele interfejsów, rozdziela się je przecinkiem.
+-   `import` – instrukcja, która wskazuje lokalizację klas z [pakietów](https://programistajava.pl/programowanie-obiektowe-w-javie-modyfikatory-dostepu-pakiety/) lub całych pakietów używając operatora *.
+-   `instanceof` – słowo służące do sprawdzania czy dany obiekt jest odpowiedniej klasy lub implementuje dany interfejs.
+-   `int` – deklarowanie zmiennej typu całkowitego. Potrzebuje 4 B pamięci.
+-   `interface` – służy do deklaracji [[Interfejs|interfejsów]].
+-   `long` – deklaruje zmienne całkowitoliczbowe. Wymaga 8 B pamięci.
+-   `native` – wskazuje, że kod został zaimplementowany w natywnym języku przy pomocy interfejsu JNI (Java Native Interface).
+-   `new` – słowo kluczowe, które tworzy instancje klas w postaci obiektu. ^1bf487
+-   `package` – dodaje klasy lub interfejsy do [pakietów](https://programistajava.pl/programowanie-obiektowe-w-javie-modyfikatory-dostepu-pakiety/).
+-   `private` – [[Modyfikatory dostępu#^31fce5|modyfikator dostępu]] do klas, metod lub pól. Najbardziej restrykcyjny wśród modyfikatorów, przez co widoczność jest ograniczona do danej klasy.
+-   `protected` – modyfikator dostępu do klas, metod lub pól. Widoczność ograniczona do pakietu lub klas dziedziczonych.
+-   `public` – [[Modyfikatory dostępu#^990e7e||Modyfikatory dostępu]] do klas, metod lub pól. Klasy publiczne widoczne są wszędzie, tak samo metody oraz dostęp do pól nie wymaga metod.
+-   `requires` – wymienia wymagane biblioteki.
+-   `return` – kończy wykonanie metody zwracając wartość lub kończy działanie metody **void**, a więc nie zwraca wtedy żadnej wartości.
+-   `short` – deklaruje zmienne całkowitoliczbowe. Wymaga 2 B pamięci.
+-   `static` – służy deklaracji zmiennych, metod lub klas wewnętrznych jako statyczne. Każdy element statyczny należy do **klasy**, a nie do **obiektu**.
+-   `strictfp` – ustala precyzję i zaokrąglenia w przypadku liczb zmiennoprzecinkowych.
+-   `super` – służy do dostępu do obiektów klasy nadrzędnej. Przykładem może być użycie konstruktora klasy nadrzędnej.
+-   `switch` – [instrukcja warunkowa](https://programistajava.pl/java-petle-i-przeplyw-sterowania/). Należy ją powiązać ze słowami **break, case** i **default**.
+-   `synchronised` – słowo kluczowe przydatne, gdy programujemy aplikacje wielowątkowe.
+-   `this` – wskazuje dany obiekt np. w metodach i konstruktorach. ^e9d952
+-   `throw` – powoduje rzucenie [[Wyjątki|wyjątku]].
+-   `throws` – deklaruje, że metoda może wyrzucić [[Wyjątki|wyjątki]], których klasy należy wymienić. Jeśli jest ich więcej trzeba rozdzielić je przecinkiem.
+-   `transient` – jeżeli zostanie użyte to słowo przy deklaracji zmiennej, to nie zostanie ona serializowana.
+-   `void` – metoda, która nie zwraca żadnej wartości.
+-   `volatile` – oznacza, że zmienna która została tak zadeklarowana może być zmieniana asynchronicznie przez konkurujące ze sobą wątki.
+-   `while` – służy do tworzenia pętli **while** i **do while**.

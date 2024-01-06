@@ -1,0 +1,196 @@
+{
+  "main": {
+    "id": "bfec3c227a8e71fb",
+    "type": "split",
+    "children": [
+      {
+        "id": "71ec876aa1e4dee7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e1e3d4e4e3ae7fbb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Studia/Wstęp do teorii sieci neuronowych.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "81ee60f928bc6485",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programowanie/Wzorce projektowe/Wzorce behawioralne.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b65a0def1b8e3ff2",
+    "type": "split",
+    "children": [
+      {
+        "id": "aef582fdaba5181f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "358639af9b0444d3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b9344da4d462fd6a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "10653cfa640b05e7",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "ea95ba6f4ffc7a21",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "cdb975d31f350d01",
+    "type": "split",
+    "children": [
+      {
+        "id": "f646183b4d24ca3e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "194fc5c67ead3470",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Studia/Wstęp do teorii sieci neuronowych.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4d76a1f20e8d1865",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false
+    }
+  },
+  "active": "358639af9b0444d3",
+  "lastOpenFiles": [
+    "Programowanie/Programowanie obiektowe - OOP/Wyjątki.md",
+    "UX Wykład.md",
+    "Studia/Sztuczna Inteligencja.md",
+    "Studia/Systemy rekomendacyjne/Systemy Rekomendacyjne.md",
+    "Problemy do omówienia.md",
+    "Studia/Analiza i projektowanie obiektowe/UML.md",
+    "Testy.md",
+    "Studia/Statystyka.md",
+    "Programowanie/Programowanie obiektowe - OOP/Java/Słowa kluczowe.md",
+    "Programowanie/Programowanie obiektowe - OOP/SOLID.md",
+    "Programowanie/Programowanie obiektowe - OOP/Silne typowanie.md",
+    "Studia/Analiza i projektowanie obiektowe/Relacje między obiektami (UML).md",
+    "Projekt sys_rek 1 - amazon.md",
+    "Pytania statystyka.md",
+    "Studia/Systemy rekomendacyjne",
+    "Programowanie/Programowanie obiektowe - OOP/Programowanie obiektowe.md",
+    "Studia/Praca inżynierska/Praca dyplomowa.md",
+    "Studia/Analiza i projektowanie obiektowe/Analiza i projektowanie obiektowe.md",
+    "Studia/Analiza i projektowanie obiektowe/Object-Oriented Analysis (OOA).md",
+    "Studia/Analiza i projektowanie obiektowe",
+    "Studia/Analiza i projektowanie obiektowe/Object-Oriented Design (OOD).md",
+    "Studia/Praca inżynierska/Klasy abstrakcyjne.md",
+    "Studia/Praca inżynierska",
+    "Studia/Praca inżynierska/Jenkins - dokumentacja utrzymaniowa.md",
+    "Studia/Praca inżynierska/Jenkins Slack.md",
+    "Metoda szablonowa.md",
+    "Programowanie/Programowanie obiektowe - OOP/Java/Modyfikatory dostępu.md",
+    "Notatki Jenkins.md",
+    "Programowanie/Programowanie obiektowe - OOP/Java/Metody.md",
+    "Programowanie/DevOps",
+    "Programowanie/Programowanie obiektowe - OOP/Java",
+    "Studia",
+    "Programowanie/Programowanie obiektowe - OOP",
+    "Programowanie/Wzorce projektowe",
+    "Images/or-gate.png",
+    "Programowanie",
+    "Images/Pasted image 20231215102817.png",
+    "Images/Pasted image 20231215095928.png",
+    "Images/Pasted image 20231215095828.png",
+    "Images/Pasted image 20231215095825.png",
+    "Images/Pasted image 20231215095724.png",
+    "Images/Pasted image 20231215095722.png",
+    "Images/Pasted image 20231215095638.png",
+    "Images/Pasted image 20231215095617.png",
+    "Images/Pasted image 20231215094734.png"
+  ]
+}
