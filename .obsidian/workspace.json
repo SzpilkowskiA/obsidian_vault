@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "71ec876aa1e4dee7",
+        "id": "e8096efa5976fb03",
         "type": "tabs",
         "children": [
           {
-            "id": "e1e3d4e4e3ae7fbb",
+            "id": "0ea3302862af7939",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Studia/Wstęp do teorii sieci neuronowych.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "81ee60f928bc6485",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programowanie/Wzorce projektowe/Wzorce behawioralne.md",
+                "file": "Studia/Kryptografia z Elementami Algebry.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Studia/Wstęp do teorii sieci neuronowych.md",
+                "file": "Studia/Kryptografia z Elementami Algebry.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,8 +132,12 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "358639af9b0444d3",
+  "active": "0ea3302862af7939",
   "lastOpenFiles": [
+    "README.md",
+    "Negocjowanie",
+    "Studia/Wstęp do teorii sieci neuronowych.md",
+    "Programowanie/Wzorce projektowe/Wzorce behawioralne.md",
     "Programowanie/Programowanie obiektowe - OOP/Wyjątki.md",
     "UX Wykład.md",
     "Studia/Sztuczna Inteligencja.md",
@@ -173,9 +164,6 @@
     "Studia/Praca inżynierska/Jenkins - dokumentacja utrzymaniowa.md",
     "Studia/Praca inżynierska/Jenkins Slack.md",
     "Metoda szablonowa.md",
-    "Programowanie/Programowanie obiektowe - OOP/Java/Modyfikatory dostępu.md",
-    "Notatki Jenkins.md",
-    "Programowanie/Programowanie obiektowe - OOP/Java/Metody.md",
     "Programowanie/DevOps",
     "Programowanie/Programowanie obiektowe - OOP/Java",
     "Studia",
