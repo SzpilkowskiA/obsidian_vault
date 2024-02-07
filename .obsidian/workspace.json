@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Studia/Egzamin Inżynieryjny/3. Język maszynowy oraz języki wyższego rzędu. Kompilacja, interpretacja i konsolidacja programu.md",
+                "file": "Studia/Egzamin Inżynieryjny/6. Techniki algorytmiczne - dziel i zwyciężaj, programowanie dynamiczne, rekurencja, metoda z powrotami na przykładzie np. algorytmów sortowania, szybkie wyszukiwanie..md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Studia/Egzamin Inżynieryjny/3. Język maszynowy oraz języki wyższego rzędu. Kompilacja, interpretacja i konsolidacja programu.md",
+                "file": "Studia/Egzamin Inżynieryjny/6. Techniki algorytmiczne - dziel i zwyciężaj, programowanie dynamiczne, rekurencja, metoda z powrotami na przykładzie np. algorytmów sortowania, szybkie wyszukiwanie..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,9 +134,11 @@
   },
   "active": "0ea3302862af7939",
   "lastOpenFiles": [
+    "Studia/Egzamin Inżynieryjny/5. Zarządzanie pamięcią. Wskaźniki, referencje i dereferencje. Dynamiczna alokacja pamięci, sterta..md",
+    "Studia/Egzamin Inżynieryjny/6. Techniki algorytmiczne - dziel i zwyciężaj, programowanie dynamiczne, rekurencja, metoda z powrotami na przykładzie np. algorytmów sortowania, szybkie wyszukiwanie..md",
+    "Studia/Egzamin Inżynieryjny/3. Język maszynowy oraz języki wyższego rzędu. Kompilacja, interpretacja i konsolidacja programu.md",
     "Studia/Egzamin Inżynieryjny/24. Protokoły TCP, UDP oraz IP, przestrzeń adresowa IPv4 i IPv6..md",
     "Studia/Egzamin Inżynieryjny/4. Pojęcie funkcji; przekazywanie parametrów i zwracanie wyniku. Czas życia i zakres ważności nazwy..md",
-    "Studia/Egzamin Inżynieryjny/3. Język maszynowy oraz języki wyższego rzędu. Kompilacja, interpretacja i konsolidacja programu.md",
     "Studia/Egzamin Inżynieryjny/2. Typy danych XML i JSON..md",
     "Studia/Egzamin Inżynieryjny/1. Podstawowe informacje o prawie autorskim w informatyce (licencje open source, closed source, shareware, SaaS, licencje GPL, MIT, CreativeCommons)..md",
     "Studia/Egzamin Inżynieryjny/Untitled",
@@ -162,8 +164,6 @@
     "Pytania statystyka.md",
     "Studia/Systemy rekomendacyjne",
     "Programowanie/Programowanie obiektowe - OOP/Programowanie obiektowe.md",
-    "Studia/Praca inżynierska/Praca dyplomowa.md",
-    "Studia/Analiza i projektowanie obiektowe/Analiza i projektowanie obiektowe.md",
     "Studia/Analiza i projektowanie obiektowe",
     "Studia/Praca inżynierska",
     "Programowanie/DevOps",
