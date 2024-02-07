@@ -6,10 +6,9 @@ Głownymi dokumentami regulującymi ochronę prawnoautorską są:
 - Konwencja Berneńska
 - Ustawa o prawie autorskim i prawach pokrewnych
 
-
-
 # Rodzaje licencji
 ## Open source
+
 
 ## Closed source
 
