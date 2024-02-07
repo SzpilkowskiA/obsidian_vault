@@ -1,7 +1,7 @@
 
 # Protokoły
 
-## TCP
+## TCP - warstwa transportu
 Transmission Control Protocol, czyli protokół sterowania transmisją.
 Połączeniowy, niezwodny, strumieniowy protokół komunikacyjny stosowany do przesyłania danych między procesami uruchomionymi na różnych maszynach.
 
@@ -11,7 +11,7 @@ Protokół TCP musi posiadać gotową sesję połączenia w celu przesłania dan
 1. Wysłanie przez pierwszą maszynę wiadomości SYN aby rozpocząć synchronizację
 2. Odesłanie przez drugą maszynę wiadomośći SYN ACK w celu potwierdzenia otrzymania wiadomości SYN
 3. Odesłanie przez pierwszą maszynę otrzymania potwierdzenia za pomocą wiadomości ACK
-## UDP
+## UDP - warstwa transportu
 User Datagram Protocol, jest to protokół bezpołączeniowy, czyli taki który wysyła dane bez poprzednio ustalonego połączenia i śledzenia sesji. Nie ma też mechanizmów kontroli przepływu i retransmisji. Dzięki temu przesył danych jest szybszy w porównaniu do TCP, lecz kosztem możliwej utraty danych w procesie. 
 
 # Różnice między TCP a UDP
@@ -34,7 +34,13 @@ UDP jest najlepsze do:
 - Gier online
 - Czatów wideo
 
-## IP
+## IP - warstwa sieciowa
 
+Protokół ip służy do adresowania interfejsów hostów, enkapsulacji danych w postaci datagramów i routingu ich od źródłowego hosta do docelowego.
+Składa się on z nagłówka IP oraz danych. Nagłówek zawiera dane dotyczące wersji IP, adresu hosta źródłowego, adresu hosta docelowego, czasu życia pakietu itd.
 
 # Przestrzeń adresowa
+
+## IPv4
+
+## IPv6
