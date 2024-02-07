@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Studia/Egzamin Inżynieryjny/Prawo autorskie w informatyce.md",
+                "file": "Studia/Egzamin Inżynieryjny/Typy danych XML i JSON.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Studia/Egzamin Inżynieryjny/Prawo autorskie w informatyce.md",
+                "file": "Studia/Egzamin Inżynieryjny/Typy danych XML i JSON.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,8 +134,9 @@
   },
   "active": "0ea3302862af7939",
   "lastOpenFiles": [
-    "Studia/Kryptografia z Elementami Algebry.md",
     "Studia/Egzamin Inżynieryjny/Prawo autorskie w informatyce.md",
+    "Studia/Egzamin Inżynieryjny/Typy danych XML i JSON.md",
+    "Studia/Kryptografia z Elementami Algebry.md",
     "Studia/Egzamin Inżynieryjny",
     "README.md",
     "Negocjowanie",
@@ -164,7 +165,6 @@
     "Studia/Analiza i projektowanie obiektowe/Object-Oriented Design (OOD).md",
     "Studia/Praca inżynierska/Klasy abstrakcyjne.md",
     "Studia/Praca inżynierska",
-    "Studia/Praca inżynierska/Jenkins - dokumentacja utrzymaniowa.md",
     "Programowanie/DevOps",
     "Programowanie/Programowanie obiektowe - OOP/Java",
     "Studia",
